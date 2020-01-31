@@ -3,8 +3,11 @@ package com.example.hello_world;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
+
+    ImageView imageview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
